@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 0 1px;
+    padding: 0 0 144px;
+}
+
+.header {
+    background-image: url(./assets/bg.jpg);
+}
+
+.menu {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 3px 11px 4px rgba(0,0,0,0.75);
+}
+
+.menu-items {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.htitle {
+    width: 761px;
+    height: 45px;
+    margin: 0 377px 0 0;
+    text-shadow: 0.5px 0.9px 1px rgba(1, 2, 0, 0.15);
+    font-family: Raleway;
+    font-size: 64px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: left;
+    color: #eee;
+}
