@@ -11,6 +11,11 @@
                 src: url(./assets/Raleway/static/Raleway-Black.ttf);
             }
 
+            @font-face {
+                font-family: Raleway-Thin;
+                src: url(./assets/Raleway/static/Raleway-Thin.ttf);
+            }
+
             head, body {
                 margin: 0;
                 padding: 0;
@@ -98,10 +103,15 @@
                 margin-bottom: 0;
                 padding-bottom: 0;
             }
+
+            .hd-title {
+                font-size: 75px;
+                margin-top: 200px;
+            }
             
             .hd-sub, .fo-sub, .sg-sub {
                 position: relative;
-                font-family: Raleway;
+                font-family: Raleway-Thin;
                 text-align: center;
                 color: #eeeeee;
                 font-size: 24px;
@@ -158,11 +168,11 @@
             .rl-title-head {
                 text-transform: uppercase;
                 font-weight: bolder;
-                font-style: Raleway;
+                font-family: Raleway;
             }
             .rl-body {
                 color: #999999;
-                font-style: Raleway;
+                font-family: Raleway-Thin;
             }
 
             /* smart pricing */
@@ -195,14 +205,18 @@
             }
 
             .pb-desc {
-                display:contents;
+                display: grid;
                 align-items: center;
                 justify-content: center;
             }
 
-            p.pb-desc {
+            .pb-desc-text { 
+                font-family: Raleway-Thin;
+                line-height: 1.3em;
                 text-align: center;
             }
+
+            
 
             /* divider */
             .divider-container {
@@ -397,11 +411,11 @@
                         <span class="month">/mo</span>
                     </div>
                     <div class="pb-desc">
-                        <p>Full Access</p>
-                        <p>&lt; &#8260; &gt; Source Files</p>
-                        <p>100 User Accounts</p>
-                        <p>1 year Access</p>
-                        <p>Phone & Email Supports</p>
+                        <span class="pb-desc-text">Full Access</span>
+                        <span class="pb-desc-text">&lt; &#8260; &gt; Source Files</span>
+                        <span class="pb-desc-text">100 User Accounts</span>
+                        <span class="pb-desc-text">1 year Access</span>
+                        <span class="pb-desc-text">Phone & Email Supports</span>
                     </div>
                     <div class="pb-footer">
                         <div class="pb-button">
